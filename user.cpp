@@ -99,7 +99,9 @@ public:
 };
 /*************************************************/
 
-#include "math.h"
+/**************************************************
+Main
+**************************************************/
 void user_main()
 {
 	automat A(3, 4, 4);			// Dummyautomat anlegen mit 3 Eingaengen, 4 Ausgaengen und 4 moeglichen Zustaenden
@@ -108,3 +110,4 @@ void user_main()
 	automat B(2, 2, 10);
 	B.consoleprinttable();
 }
+/**************************************************/
